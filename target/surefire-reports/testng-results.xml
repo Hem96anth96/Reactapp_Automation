@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-20T09:27:59 EDT" name="Suite" finished-at="2024-08-20T09:28:18 EDT" duration-ms="19409">
+    <groups>
+    </groups>
+    <test started-at="2024-08-20T09:27:59 EDT" name="Test" finished-at="2024-08-20T09:28:18 EDT" duration-ms="19409">
+      <class name="com.practice.sauselab.tests.AppTest1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.practice.sauselab.tests.AppTest1@3ba9ad43]" started-at="2024-08-20T09:27:59 EDT" name="setUp" finished-at="2024-08-20T09:28:03 EDT" duration-ms="4594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPage()[pri:0, instance:com.practice.sauselab.tests.AppTest1@3ba9ad43]" started-at="2024-08-20T09:28:03 EDT" name="testLoginPage" finished-at="2024-08-20T09:28:05 EDT" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testProductsPage()[pri:0, instance:com.practice.sauselab.tests.AppTest1@3ba9ad43]" started-at="2024-08-20T09:28:05 EDT" name="testProductsPage" finished-at="2024-08-20T09:28:06 EDT" depends-on-methods="com.practice.sauselab.tests.AppTest1.testLoginPage" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductsPage -->
+        <test-method signature="testCart()[pri:0, instance:com.practice.sauselab.tests.AppTest1@3ba9ad43]" started-at="2024-08-20T09:28:06 EDT" name="testCart" finished-at="2024-08-20T09:28:07 EDT" depends-on-methods="com.practice.sauselab.tests.AppTest1.testProductsPage" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method signature="testCheckoutInformation()[pri:0, instance:com.practice.sauselab.tests.AppTest1@3ba9ad43]" started-at="2024-08-20T09:28:07 EDT" name="testCheckoutInformation" finished-at="2024-08-20T09:28:07 EDT" depends-on-methods="com.practice.sauselab.tests.AppTest1.testCart" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutInformation -->
+        <test-method signature="testOverviewPage()[pri:0, instance:com.practice.sauselab.tests.AppTest1@3ba9ad43]" started-at="2024-08-20T09:28:07 EDT" name="testOverviewPage" finished-at="2024-08-20T09:28:07 EDT" depends-on-methods="com.practice.sauselab.tests.AppTest1.testCheckoutInformation" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOverviewPage -->
+        <test-method signature="testCompletePage()[pri:0, instance:com.practice.sauselab.tests.AppTest1@3ba9ad43]" started-at="2024-08-20T09:28:07 EDT" name="testCompletePage" finished-at="2024-08-20T09:28:07 EDT" depends-on-methods="com.practice.sauselab.tests.AppTest1.testOverviewPage" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.practice.sauselab.tests.AppTest1@3ba9ad43]" started-at="2024-08-20T09:28:07 EDT" name="tearDown" finished-at="2024-08-20T09:28:11 EDT" duration-ms="4117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.practice.sauselab.tests.AppTest1 -->
+      <class name="com.practice.sauselab.tests.AppTest2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.practice.sauselab.tests.AppTest2@3c419631]" started-at="2024-08-20T09:27:59 EDT" name="setUp" finished-at="2024-08-20T09:28:03 EDT" duration-ms="4662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTests()[pri:0, instance:com.practice.sauselab.tests.AppTest2@3c419631]" started-at="2024-08-20T09:28:03 EDT" name="loginTests" finished-at="2024-08-20T09:28:14 EDT" duration-ms="10501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.practice.sauselab.tests.AppTest2@3c419631]" started-at="2024-08-20T09:28:14 EDT" name="tearDown" finished-at="2024-08-20T09:28:18 EDT" duration-ms="4112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.practice.sauselab.tests.AppTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

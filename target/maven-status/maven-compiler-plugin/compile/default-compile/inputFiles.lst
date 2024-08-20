@@ -1,0 +1,7 @@
+/var/lib/jenkins/Automations/src/main/java/com/practice/sauselab/pageclasses/ProductsPage.java
+/var/lib/jenkins/Automations/src/main/java/com/practice/sauselab/pageclasses/ChechoutOverviewPage.java
+/var/lib/jenkins/Automations/src/main/java/com/practice/sauselab/pageclasses/LoginPage.java
+/var/lib/jenkins/Automations/src/main/java/com/practice/sauselab/pageclasses/YourCartPage.java
+/var/lib/jenkins/Automations/src/main/java/com/practice/sauselab/pageclasses/CheckoutInfoPage.java
+/var/lib/jenkins/Automations/src/main/java/com/practice/sauselab/pageclasses/CheckoutCompletePage.java
+/var/lib/jenkins/Automations/src/main/java/com/practice/sauselab/utility/PageUtilities.java

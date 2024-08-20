@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="classes" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.practice.sauselab.tests.AppTest1">
+        <methods>
+          <include name="testCheckoutInformation"/>
+          <include name="testOverviewPage"/>
+          <include name="testProductsPage"/>
+          <include name="testCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCompletePage"/>
+          <include name="testLoginPage"/>
+        </methods>
+      </class> <!-- com.practice.sauselab.tests.AppTest1 -->
+      <class name="com.practice.sauselab.tests.AppTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginTests"/>
+        </methods>
+      </class> <!-- com.practice.sauselab.tests.AppTest2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
